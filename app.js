@@ -3,6 +3,9 @@ let numeroSecreto = 25;
 console.log(numeroSecreto);
 let chute = prompt("Escolha um número entre 1 e 30");
 
+//// Adicione um console.log para verificar a comparação entre "chute" e "numeroSecreto"
+console.log('Resultado da comparação:', chute == numeroSecreto);
+
 // se o chute for igual ao número secreto
 if (chute == numeroSecreto) {
     alert('Você acertou o número secreto que era: '+ numeroSecreto);
